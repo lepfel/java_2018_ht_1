@@ -34,6 +34,12 @@ public class Point {
         return new Point((this.getX() + b.getX()) / 2, (this.getY() + b.getY()) / 2);
     }
 
+    public String getCircleEquation(Point b) {
+        Point middle = this.getMiddlePoint(b);
+        double radius = this.getDistanceTo(b) / 2;
+        return String.format("(x - %.2f)^2 + (y - %.2f)^2 = %.2f", middle.getX(), middle.getY(), radius);
+    }
+
 
     public double getX() {
         return x;

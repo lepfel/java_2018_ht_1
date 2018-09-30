@@ -1,7 +1,7 @@
 package example;
 import hometask1.Elephant;
 
-public class main {
+public class fmain {
     public static void main() {
         Elephant elephant = new Elephant("Vasya", 58);
         elephant.printElephant();

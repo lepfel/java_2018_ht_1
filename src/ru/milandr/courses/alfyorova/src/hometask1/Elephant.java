@@ -31,7 +31,7 @@ public class Elephant {
         System.out.println("Elephant ate");
     }
 
-    public void printElephant() {
-        System.out.println("Elephant " + this.name + " with mass " + this.mass);
-    }
+    //public void printElephant() {
+   //     System.out.println("Elephant " + this.name + " with mass " + this.mass);
+    //}
 }

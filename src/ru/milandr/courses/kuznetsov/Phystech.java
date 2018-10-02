@@ -1,3 +1,5 @@
+package ru.milandr.courses.kuznetsov;
+
 public class Phystech {
     private String name;
     private String sex;

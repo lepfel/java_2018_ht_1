@@ -1,3 +1,5 @@
+package ru.milandr.courses.kuznetsov;
+
 public class Point {
     private double x;
     private double y;
